@@ -1,0 +1,16 @@
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+}
+body header {
+  background-color: lightgray;
+}
+body main {
+  background-color: lightblue;
+}
+body aside {
+  background-color: lightgreen;
+}
+body footer {
+  background-color: burlywood;
+}/*# sourceMappingURL=style.css.map */
