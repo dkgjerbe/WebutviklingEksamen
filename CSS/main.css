@@ -1,0 +1,98 @@
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+}
+body header {
+  background-color: lightgray;
+}
+body header nav {
+  padding: 1rem;
+}
+body header nav #Logo {
+  font-size: 50px;
+}
+body header nav #Logo a:link {
+  text-decoration: none;
+}
+body header nav #Logo a:visited {
+  text-decoration: none;
+}
+body header nav ul.bread {
+  list-style: none;
+}
+body header nav ul.bread li {
+  display: inline;
+}
+body header nav ul.menu {
+  list-style: none;
+}
+body header nav ul.menu a:link, body header nav ul.menu a:visited {
+  color: black;
+  text-decoration: none;
+}
+body main {
+  background-color: lightblue;
+  /*
+  article.productcard{
+      padding: 1rem;
+      margin: 1rem;
+  }
+  */
+}
+body main section.banner {
+  background-color: gray;
+  padding: 4%;
+  margin: 1rem;
+  text-align: right;
+}
+body main section {
+  /*
+  padding: 1rem;
+  margin: 1rem;
+   */
+}
+body main section article {
+  padding: 1rem;
+  margin: 1rem;
+}
+body main section article.category {
+  border: 0.2rem solid black;
+  text-align: center;
+  padding: 5rem;
+  margin: 2rem;
+}
+body aside {
+  background-color: lightgreen;
+}
+body footer {
+  background-color: burlywood;
+}
+body footer ul {
+  list-style: none;
+}
+
+#Logo {
+  font-size: 50px;
+}
+#Logo a:link {
+  color: black;
+  text-decoration: none;
+}
+#Logo a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a.link_button:link, a.link_button:visited {
+  background-color: white;
+  color: black;
+  border: 0.2rem solid black;
+  padding: 0.4rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.link_button:hover, a.link_button:active {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

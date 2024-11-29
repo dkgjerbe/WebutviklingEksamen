@@ -7,16 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="">
-    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="CSS/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
     <header>        
         <nav>
-            <a href="index.html"><img src="" alt="Logo"></a>
+            <a href="index.html" id="Logo"><img src="IMAGES/logo.png" alt="Logo" ></a>
             <input type="text" placeholder="Søk">
-            <a href="checkout.html"><img src="" alt="Handlevogn"></a>
-            <ul>
+            søk knapp her
+            <a href="HTML/checkout.html"><img src="" alt="Handlevogn"></a>
+            <ul class="menu">
                 <li><a href="index.html">Hjem</a></li>
                 <li><a href="">Produkter</a></li>
                 <li><a href="">kategorier</a></li>
@@ -27,17 +28,147 @@
 
     <main>
         <!--  -->
-        <section>Banner</section>
+        <section class="banner">
+            <article>
+                <h2>En overskrift</h2>
+                <p>
+                    Mauris nulla lectus, elementum id ipsum at, blandit semper nisl. 
+                    Curabitur tincidunt dolor eu nisl ultricies semper. Aliquam erat volutpat. 
+                    Phasellus et nisl quis mi luctus viverra. 
+                    Nam diam sapien, malesuada imperdiet sapien sed, rhoncus tincidunt dolor. 
+                    Pellentesque eget mauris ligula. Cras aliquet magna lacus, iaculis euismod ex tristique vel. 
+                    
+                </p>
+                <a href="" class="link_button">Link forkledd som knapp</a>
+            </article>
+
+        </section>
+
         <!-- Hvordan skal man ellers finne ut at man mangler noe man ikke visste man ikke kunne klare seg uten? -->
         <section>
-            <h3>Våre mest populære produkter</h3>
+            <article>
+                <h2>Våre mest populære produkter</h2>
+                <p>tekst</p>
+                <a href="" class="link_button">Knapp</a>
+                <a href="" class="link_button">Knapp</a>
+                <a href="" class="link_button">Knapp</a>
+            </article>
+
+            <!-- Produktkort -->
+            <article class="productcard">
+                <img src="IMAGES/bilde.png" alt="Produktbilde">
+                <h4>Produktnavn</h4>
+            </article>
+            <p>Pris: ∞kr</p>
+            <article class="productcard">
+                <img src="IMAGES/bilde.png" alt="Produktbilde">
+                <h4>Produktnavn</h4>
+                <p>Pris: ∞kr</p>
+            </article>
+            <article class="productcard">
+                <img src="IMAGES/bilde.png" alt="Produktbilde">
+                <h4>Produktnavn</h4>
+                <p>Pris: ∞kr</p>
+            </article>
+            <article class="productcard">
+                <img src="IMAGES/bilde.png" alt="Produktbilde">
+                <h4>Produktnavn</h4>
+                <p>Pris: ∞kr</p>
+            </article>
+            <article class="productcard">
+                <img src="IMAGES/bilde.png" alt="Produktbilde">
+                <h4>Produktnavn</h4>
+                <p>Pris: ∞kr</p>
+            </article>
+
         </section>
+
         <section>
-            <h3>Våre mest populære kategorier</h3>
+            <article>
+                <h2>Våre mest populære kategorier</h2>
+            </article>
+            
+            
+            <article class="category">
+                <h4>Kategori 1</h4>
+            </article>
+
+            <article class="category">
+                <h4>Kategori 2</h4>
+            </article>
+
+            <article class="category">
+                <h4>Kategori 3</h4>
+            </article>
+
+            <article class="category">
+                <h4>Kategori 4</h4>
+            </article>
+
+            <article class="category">
+                <h4>Kategori 5</h4>
+            </article>
+
         </section>
+
         <!-- Hvilken nytte har produktanmeldelser på forsiden? -->
         <section>
-            <h3>Anmeldelser</h3>
+            <h2>Anmeldelser</h2>
+
+            <article class="review">
+                <img src="IMAGES/profil.png" alt="Profile picture">
+                <h5>Navn</h5>
+                <p>
+                    Proin non laoreet nisl. Ut posuere, felis vitae sagittis luctus, 
+                    metus leo porttitor sem, vel gravida leo augue vel dui. Sed a nisi ac diam auctor interdum. 
+                    Mauris vel fringilla metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Morbi consectetur imperdiet ante, non eleifend libero accumsan vel. 
+                </p>
+            </article>
+
+            <article class="review">
+                <img src="IMAGES/profil.png" alt="Profile picture">
+                <h5>Navn</h5>
+                <p>
+                    Proin non laoreet nisl. Ut posuere, felis vitae sagittis luctus, 
+                    metus leo porttitor sem, vel gravida leo augue vel dui. Sed a nisi ac diam auctor interdum. 
+                    Mauris vel fringilla metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Morbi consectetur imperdiet ante, non eleifend libero accumsan vel. 
+                </p>
+            </article>
+
+            <article class="review">
+                <img src="IMAGES/profil.png" alt="Profile picture">
+                <h5>Navn</h5>
+                <p>
+                    Proin non laoreet nisl. Ut posuere, felis vitae sagittis luctus, 
+                    metus leo porttitor sem, vel gravida leo augue vel dui. Sed a nisi ac diam auctor interdum. 
+                    Mauris vel fringilla metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Morbi consectetur imperdiet ante, non eleifend libero accumsan vel. 
+                </p>
+            </article>
+
+            <article class="review">
+                <img src="IMAGES/profil.png" alt="Profile picture">
+                <h5>Navn</h5>
+                <p>
+                    Proin non laoreet nisl. Ut posuere, felis vitae sagittis luctus, 
+                    metus leo porttitor sem, vel gravida leo augue vel dui. Sed a nisi ac diam auctor interdum. 
+                    Mauris vel fringilla metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Morbi consectetur imperdiet ante, non eleifend libero accumsan vel. 
+                </p>
+            </article>
+
+            <article class="review">
+                <img src="IMAGES/profil.png" alt="Profile picture">
+                <h5>Navn</h5>
+                <p>
+                    Proin non laoreet nisl. Ut posuere, felis vitae sagittis luctus, 
+                    metus leo porttitor sem, vel gravida leo augue vel dui. Sed a nisi ac diam auctor interdum. 
+                    Mauris vel fringilla metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Morbi consectetur imperdiet ante, non eleifend libero accumsan vel. 
+                </p>
+            </article>
         </section>
 
     </main>
@@ -49,7 +180,8 @@
     </aside>
 
     <footer>
-        <section><a href=""><img src="" alt="Logo"></a>Ingress</section>
+        <a href="index.html" id="Logo"><img src="IMAGES/logo.png" alt="Logo" ></a>
+        <p>Etiam non odio vehicula, pulvinar turpis ac, tristique mi. Etiam in posuere odio.</p>
 
         <section>
             <h5>Kontakt oss</h5>
@@ -62,7 +194,8 @@
             
         </section>
 
-        <section>Snarveier
+        <section>
+            <h5>Snarveier</h5>
             <ul>
                 <li><a href="">Forside</a></li>
                 <li><a href="">Lenke A</a></li>

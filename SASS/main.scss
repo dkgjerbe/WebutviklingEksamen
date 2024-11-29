@@ -1,0 +1,119 @@
+body {
+    font-family: "Arial", sans-serif;
+    
+    font-size: 18px;
+    header{
+        background-color: lightgray;
+        nav{
+            padding: 1rem;
+            /*
+            #Logo{
+                font-size: 50px;
+                a:link{
+                    text-decoration: none;
+                }
+                a:visited{
+                    text-decoration: none;
+                }
+            */
+            }
+            //Brødsmuler
+            ul.bread{
+                list-style: none;
+                li{
+                    display: inline;
+                }
+                
+            }
+            //Navigasjonsmeny
+            ul.menu{
+                list-style: none;
+                a:link, a:visited{
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    main{
+        background-color: lightblue;
+        //
+        section.banner{
+            background-color: gray;
+            padding: 4%;
+            margin: 1rem;
+            text-align: right;
+        }
+
+        
+        section{
+            /*
+            padding: 1rem;
+            margin: 1rem;
+             */
+
+            article{
+                padding: 1rem;
+                margin: 1rem;
+                p{
+                    padding: 1rem;
+                }
+            }
+
+            article.category{
+                border: 0.2rem solid black;
+                text-align: center;
+                padding: 5rem;
+                margin: 2rem;
+            }
+            article.review{
+
+            }
+        }
+       
+
+        /*
+        article.productcard{
+            padding: 1rem;
+            margin: 1rem;
+        }
+        */
+    }
+
+    aside{
+        background-color: lightgreen;
+    }
+
+    footer{
+        background-color: burlywood;
+        ul{
+            list-style: none;
+        }
+    }
+}
+
+#Logo{
+    font-size: 50px;
+    a:link{
+        color: black;
+        text-decoration: none;
+    }
+    a:visited{
+        color: black;
+        text-decoration: none;
+    }
+}
+
+a.link_button:link, a.link_button:visited{
+    background-color: white;
+    color: black;
+    border: 0.2rem solid black;
+    padding: 0.4rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.link_button:hover, a.link_button:active{
+    background-color: black;
+    color: white;
+}
